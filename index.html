@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Grade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> Grade Book</h1>
+<div class="container">
+    <fieldset>
+        <form>
+
+            <h3> Student detail:</h3>
+            <label for="firstName">First Name : </label>
+            <input name="firstName" id="firstName" type="text" >
+            <br>
+            <label for="lastName"> Last Name :</label>
+            <input name="lastName" id="lastName" type="text" >
+            <br>
+            <label for="pointEarned"> Point Earned :</label>
+            <input name="pointEarned" id="pointEarned" type="text" >
+            <br>
+            <label for="pointPossible"> Point Possible :</label>
+            <input name="phonePossible" id="pointPossible" type="text" >
+            <br>
+
+            <button id = "submit"> Add students </button>
+        </form>
+
+        <br><br>
+        <h4> Students grade table</h4>
+
+        <table>
+            <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <!-- add one row per menu item -->
+            </tbody>
+
+        </table>
+
+    </fieldset>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="code.js"></script>
+
+</body>
+</html>
